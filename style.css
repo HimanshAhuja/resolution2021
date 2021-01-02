@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Langar', cursive;
+    background-image: linear-gradient(limegreen, cyan);
+}
+
+#nav1{
+    text-align: center;
+    font-size: 500%;
+    cursor: default;
+    color: white;
+}
+
+#nav1:hover {
+    color: aqua;
+}
+
+#nav{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    min-height: 100px;
+}
+
+#nav li{
+    list-style-type: none;
+    margin: 0 150px;
+    text-decoration: none;
+}
+
+#nav li a{
+    text-decoration: none;
+    font-size: 2em;
+    color: cyan;
+}
+
+#nav li a:hover{
+    background-image: linear-gradient(grey, black);
+    
+}
+
+#nav1{
+    background-color: black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    min-height: 5em;
+    text-align: center;
+    font-size: 2em;
+}
+
+.nav2{
+    font-size:300%;
+}
+
+#img1{
+    height: 700px;
+    width: 1580px;
+}
+
+.resolution{
+    margin-left: 2em;
+}
